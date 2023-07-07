@@ -137,6 +137,10 @@ body {
   .wetherTime {
     font-size: 20px;
   }
+    .more {
+    margin-left: 10%;
+   
+  }
   .cont {
     display: block;
   }
@@ -147,12 +151,13 @@ body {
 @media screen and (max-width: 500px) {
   .wetherBox {
     border-radius: 50px;
-    width: 90%;
+    width: 290px;
   }
   .newSerch {
     width: 60%;
   }
   .more {
+     margin-left: 10%;
     width: 60%;
   }
   .containerTyDay {
@@ -166,10 +171,7 @@ body {
     width: 100px;
     height: 100px;
   }
-  .wetherBox {
-    border-radius: 20px;
-    width: 90%;
-  }
+
 
   .none {
     display: none;
