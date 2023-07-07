@@ -1,0 +1,177 @@
+body {
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(0, 0, 0);
+}
+.newSerch {
+  cursor: pointer;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  border-style: solid;
+  color: rgb(255, 194, 251);
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  box-shadow: 1px 1px 5px rgb(86, 142, 255);
+}
+.newSerch:hover {
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 10px rgb(180, 130, 255));
+}
+
+.newSerch:active {
+  color: rgb(49, 118, 255);
+}
+.more {
+  cursor: pointer;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  border-style: solid;
+  color: rgb(255, 194, 251);
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  box-shadow: 1px 1px 5px rgb(86, 142, 255);
+}
+.more:hover {
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 10px rgb(180, 130, 255));
+}
+.more:active {
+  color: rgb(46, 102, 255);
+}
+.top {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: inherit;
+
+}
+.inp {
+  margin-left: 15%;
+  width: 50%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 24px;
+}
+.containerTyDay {
+  display: flex;
+}
+.src {
+  width: 40px;
+}
+.btn {
+  height: 40px;
+  width: 50px;
+  border-style: solid;
+  color: rgb(255, 194, 251);
+  border-radius: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 10px rgb(180, 130, 255));
+}
+.btn:active {
+  filter: drop-shadow(5px 5px 10px rgb(78, 22, 161));
+}
+
+.imgSkyDay {
+  width: 100px;
+  height: 100px;
+}
+.imgSky {
+  width: 100px;
+  height: 100px;
+}
+
+.wetherBox {
+  width: 600px;
+  color: rgb(255, 255, 255);
+  padding: 5%;
+
+  box-shadow: 3px 3px 10px rgb(86, 142, 255);
+  border-style: solid;
+  border-radius: 100px;
+}
+.earth {
+  margin-left: 10%;
+  width: 80%;
+  max-height: 80%;
+}
+
+.contMore {
+  display: flex;
+  align-items: stretch;
+}
+.wetherTemp {
+  font-size: 36px;
+}
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-content: space-between;
+}
+.none {
+  display: none;
+}
+.wetherTime {
+  font-size: 36px;
+}
+@media screen and (max-width: 800px) {
+  .wetherBox {
+    border-radius: 50px;
+    width: 400px;
+  }
+  .imgSkyDay {
+    width: 50px;
+    height: 50px;
+  }
+  .wetherTemp {
+    font-size: 20px;
+  }
+  .wetherTime {
+    font-size: 20px;
+  }
+  .cont {
+    display: block;
+  }
+  .none {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wetherBox {
+    border-radius: 50px;
+    width: 90%;
+  }
+  .newSerch {
+    width: 60%;
+  }
+  .more {
+    width: 60%;
+  }
+  .containerTyDay {
+    display: block;
+  }
+  .imgSkyDay {
+    width: 100px;
+    height: 100px;
+  }
+  .imgSky {
+    width: 100px;
+    height: 100px;
+  }
+  .wetherBox {
+    border-radius: 20px;
+    width: 90%;
+  }
+
+  .none {
+    display: none;
+  }
+}
